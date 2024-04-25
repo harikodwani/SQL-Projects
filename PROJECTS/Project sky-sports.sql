@@ -126,7 +126,6 @@ select 'group',count(team) from group_stage gs  group by 'group';
 
 #33. Write a SQL query to show team names group 6 has
 select team,'group' from group_stage gs where 'group'=6;
-#DOUBT HERE
 select team, `group` 
 from group_stage 
 where `group`=6;
